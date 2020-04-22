@@ -11,8 +11,16 @@ Please check carefully the pre-requisites below for participating in a OSDU App 
     - Windows Terminal
     - Postman
     - Docker Desktop
-    - 
-and also make certain changes to your laptop configuration that 
+    - Google Chrome
+    - VS Code
+    - Python
+    - Node
+    
+and also make certain changes to your laptop configuration:
+    - install certificates
+    - configure hosts file
+    
+If you cannot use your laptop, please register for Azure free subscription:
 
 Developer's VM for the OSDU Bootcamp in Azure
 (scripts are cortesy of [danielscholl](https://github.com/danielscholl) from Microsoft)
