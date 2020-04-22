@@ -17,10 +17,13 @@ Please check carefully the pre-requisites below for participating in a OSDU App 
     - Node
     
 and also make certain changes to your laptop configuration:
-    - install certificates
-    - configure hosts file
+  - install certificates
+  - configure hosts file
     
-If you cannot use your laptop, please register for Azure free subscription:
+If you cannot use your laptop, please register for Azure free subscription: https://azure.microsoft.com/en-us/free/
+_The registration is free and you will get a credit of $200, but the credit card is required during registration_.
+
+Please get your Azure subscription __before__ joining the bootcamp, it will take a while... Also please try provisioning a VM using the button below. [Let us know](mailto:dmitry_kniazev@epam.com) if any questions.
 
 Developer's VM for the OSDU Bootcamp in Azure
 (scripts are cortesy of [danielscholl](https://github.com/danielscholl) from Microsoft)
