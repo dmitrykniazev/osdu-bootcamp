@@ -56,7 +56,7 @@
         "metadata": {
           "description": "The base URI where desired setup script is located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
         },
-        "defaultValue": "https://github.com/dmitrykniazev/osdu-bootcamp/blob/master/scripts/"
+        "defaultValue": "https://raw.githubusercontent.com/dmitrykniazev/osdu-bootcamp/master/scripts/"
       },
       "script": {
         "type": "string",
