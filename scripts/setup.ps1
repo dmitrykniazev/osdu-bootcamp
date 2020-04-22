@@ -10,7 +10,7 @@ $Packages = `
   'docker-desktop', `
   'postman', `  
   'microsoft-windows-terminal', `
-  'cascadiacode',
+  'cascadiacode'
 
 # Install Packages
 ForEach ($PackageName in $Packages)
