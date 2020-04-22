@@ -27,7 +27,7 @@ Invoke-WebRequest -Uri https://aka.ms/wsl-debian-gnulinux -OutFile ~/Debian.appx
 Add-AppxPackage -Path ~/Debian.appx
 
 # Configure Terminal
-Invoke-WebRequest -Uri https://github.com/dmitrykniazev/osdu-bootcamp/blob/master/scripts/settings.json -OutFile $env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json -UseBasicParsing
+# Invoke-WebRequest -Uri https://github.com/dmitrykniazev/osdu-bootcamp/blob/master/scripts/settings.json -OutFile $env:LocalAppData\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json -UseBasicParsing
 
 # Reboot
 Restart-Computer
