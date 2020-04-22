@@ -9,7 +9,7 @@ $Packages = `
   'visualstudiocode', `
   'docker-desktop', `
   'postman', `  
-  'microsoft-windows-terminal', `
+  'wsl-debiangnulinux', `
   'cascadiacode'
 
 # Install Packages
