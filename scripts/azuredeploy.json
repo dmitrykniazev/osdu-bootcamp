@@ -56,7 +56,7 @@
         "metadata": {
           "description": "The base URI where desired setup script is located. When the template is deployed using the accompanying scripts, a private location in the subscription will be used and this value will be automatically generated."
         },
-        "defaultValue": "https://community.opengroup.org/osdu/program/-/blob/master/App_Dev_Training/Bootcamps/scripts/"
+        "defaultValue": "https://github.com/dmitrykniazev/osdu-bootcamp/blob/master/scripts/setup.ps1/"
       },
       "script": {
         "type": "string",
