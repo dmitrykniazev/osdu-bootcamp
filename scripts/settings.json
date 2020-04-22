@@ -1,0 +1,39 @@
+// To view the default settings, hold "alt" while clicking on the "Settings" button.
+// For documentation on these settings, see: https://aka.ms/terminal-documentation
+
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+	"alwaysShowTabs": true,
+	"initialCols": 120,
+	"initialRows": 30,
+
+    "profiles":
+    [
+        {
+            "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+            "name": "Windows PowerShell",
+            "commandline": "powershell.exe",
+            "fontFace":  "Cascadia Code",
+            "hidden": false
+        },
+        {
+            "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+            "hidden": false,
+            "name": "Debian - WSL",
+            "fontFace":  "Cascadia Code",
+            "source": "Windows.Terminal.Wsl",
+	        "padding": "20, 10, 20, 20",
+	        "background" : "#002b36",
+	        "colorScheme" : "Campbell"
+        }
+    ],
+
+    // Add custom color schemes to this array
+    "schemes": [],
+
+    // Add any keybinding overrides to this array.
+    // To unbind a default keybinding, set the command to "unbound"
+    "keybindings": []
+}
